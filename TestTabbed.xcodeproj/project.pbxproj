@@ -15,6 +15,15 @@
 		490BF3191A7F30EE0013B33D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490BF3181A7F30EE0013B33D /* Images.xcassets */; };
 		490BF31C1A7F30EE0013B33D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490BF31A1A7F30EE0013B33D /* LaunchScreen.xib */; };
 		490BF3281A7F30EE0013B33D /* TestTabbedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BF3271A7F30EE0013B33D /* TestTabbedTests.m */; };
+		490BF3331A7F31450013B33D /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 490BF3321A7F31450013B33D /* test.plist */; };
+		490BF3361A7F31890013B33D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BF3131A7F30EE0013B33D /* SecondViewController.m */; };
+		490BF3371A7F31890013B33D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BF30D1A7F30EE0013B33D /* AppDelegate.m */; };
+		490BF3381A7F31890013B33D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BF3101A7F30EE0013B33D /* FirstViewController.m */; };
+		490BF3391A7F31890013B33D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BF30A1A7F30EE0013B33D /* main.m */; };
+		490BF33C1A7F31890013B33D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490BF3151A7F30EE0013B33D /* Main.storyboard */; };
+		490BF33D1A7F31890013B33D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490BF31A1A7F30EE0013B33D /* LaunchScreen.xib */; };
+		490BF33E1A7F31890013B33D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490BF3181A7F30EE0013B33D /* Images.xcassets */; };
+		490BF3461A7F31D50013B33D /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 490BF3451A7F31D50013B33D /* test.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +52,10 @@
 		490BF3211A7F30EE0013B33D /* TestTabbedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTabbedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		490BF3261A7F30EE0013B33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		490BF3271A7F30EE0013B33D /* TestTabbedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTabbedTests.m; sourceTree = "<group>"; };
+		490BF3321A7F31450013B33D /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
+		490BF3431A7F31890013B33D /* TestTabbed copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestTabbed copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		490BF3441A7F31890013B33D /* TestTabbed copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestTabbed copy-Info.plist"; path = "/Users/andrew/codes/testiosapp/TestTabbed/TestTabbed copy-Info.plist"; sourceTree = "<absolute>"; };
+		490BF3451A7F31D50013B33D /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = test.plist; path = "another target/test.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		490BF33A1A7F31890013B33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -69,6 +89,7 @@
 				490BF3071A7F30EE0013B33D /* TestTabbed */,
 				490BF3241A7F30EE0013B33D /* TestTabbedTests */,
 				490BF3061A7F30EE0013B33D /* Products */,
+				490BF3441A7F31890013B33D /* TestTabbed copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +98,7 @@
 			children = (
 				490BF3051A7F30EE0013B33D /* TestTabbed.app */,
 				490BF3211A7F30EE0013B33D /* TestTabbedTests.xctest */,
+				490BF3431A7F31890013B33D /* TestTabbed copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +106,7 @@
 		490BF3071A7F30EE0013B33D /* TestTabbed */ = {
 			isa = PBXGroup;
 			children = (
+				490BF3311A7F31110013B33D /* files for another target */,
 				490BF30C1A7F30EE0013B33D /* AppDelegate.h */,
 				490BF30D1A7F30EE0013B33D /* AppDelegate.m */,
 				490BF30F1A7F30EE0013B33D /* FirstViewController.h */,
@@ -94,6 +117,7 @@
 				490BF3181A7F30EE0013B33D /* Images.xcassets */,
 				490BF31A1A7F30EE0013B33D /* LaunchScreen.xib */,
 				490BF3081A7F30EE0013B33D /* Supporting Files */,
+				490BF3321A7F31450013B33D /* test.plist */,
 			);
 			path = TestTabbed;
 			sourceTree = "<group>";
@@ -122,6 +146,14 @@
 				490BF3261A7F30EE0013B33D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		490BF3311A7F31110013B33D /* files for another target */ = {
+			isa = PBXGroup;
+			children = (
+				490BF3451A7F31D50013B33D /* test.plist */,
+			);
+			name = "files for another target";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +194,23 @@
 			productReference = 490BF3211A7F30EE0013B33D /* TestTabbedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		490BF3341A7F31890013B33D /* Target 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490BF3401A7F31890013B33D /* Build configuration list for PBXNativeTarget "Target 2" */;
+			buildPhases = (
+				490BF3351A7F31890013B33D /* Sources */,
+				490BF33A1A7F31890013B33D /* Frameworks */,
+				490BF33B1A7F31890013B33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Target 2";
+			productName = TestTabbed;
+			productReference = 490BF3431A7F31890013B33D /* TestTabbed copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,6 +244,7 @@
 			targets = (
 				490BF3041A7F30EE0013B33D /* TestTabbed */,
 				490BF3201A7F30EE0013B33D /* TestTabbedTests */,
+				490BF3341A7F31890013B33D /* Target 2 */,
 			);
 		};
 /* End PBXProject section */
@@ -207,6 +257,7 @@
 				490BF3171A7F30EE0013B33D /* Main.storyboard in Resources */,
 				490BF31C1A7F30EE0013B33D /* LaunchScreen.xib in Resources */,
 				490BF3191A7F30EE0013B33D /* Images.xcassets in Resources */,
+				490BF3331A7F31450013B33D /* test.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +265,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490BF33B1A7F31890013B33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490BF3461A7F31D50013B33D /* test.plist in Resources */,
+				490BF33C1A7F31890013B33D /* Main.storyboard in Resources */,
+				490BF33D1A7F31890013B33D /* LaunchScreen.xib in Resources */,
+				490BF33E1A7F31890013B33D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +298,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				490BF3281A7F30EE0013B33D /* TestTabbedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490BF3351A7F31890013B33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490BF3361A7F31890013B33D /* SecondViewController.m in Sources */,
+				490BF3371A7F31890013B33D /* AppDelegate.m in Sources */,
+				490BF3381A7F31890013B33D /* FirstViewController.m in Sources */,
+				490BF3391A7F31890013B33D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +474,26 @@
 			};
 			name = Release;
 		};
+		490BF3411A7F31890013B33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TestTabbed copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "TestTabbed copy";
+			};
+			name = Debug;
+		};
+		490BF3421A7F31890013B33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TestTabbed copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "TestTabbed copy";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -428,6 +521,15 @@
 				490BF3301A7F30EE0013B33D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+		};
+		490BF3401A7F31890013B33D /* Build configuration list for PBXNativeTarget "Target 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490BF3411A7F31890013B33D /* Debug */,
+				490BF3421A7F31890013B33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,7 @@
 #import "FirstViewController.h"
 
 @interface FirstViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *testLabel;
 
 @end
 
@@ -16,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSDictionary *dict=[self loadPlist];
+    _testLabel.text=dict[@"testkey"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -23,5 +26,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (NSDictionary *)loadPlist {
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"plist"];
+    return [[NSDictionary alloc] initWithContentsOfFile:path];
+};
 
 @end
